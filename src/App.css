@@ -1,38 +1,112 @@
-.App {
+.main-text {
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+.cate-box {
+  background-color: blue;
   text-align: center;
+  color: white;
+  margin-left: 200px;
+  padding: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-box {
+  background-color: lightgray;
+  color: darkgray;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  max-width: 900px;
+  height: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pick-text{
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.pick-left {
+  margin-left: 200px;
+  max-width: 370px;
+}
+.pick { 
+  position: relative;
+  left: 600px;
+  bottom: 525px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pick2 {
+  position: relative;
+  left: 437px;
+  bottom: 470px;
+}
+
+.pick3 {
+  position: relative;
+  left: 270px;
+  bottom: 400px;
+}
+.img-text {
+  max-width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+.main-logo {
+  display: flex;
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 80px;
+}
+.img1 {
+  display: flex;
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+  margin-left: 200px;
+  margin-bottom: 25px;
+}
+.sub-img {
+  float: left;
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+  margin-right: 15px; 
+}
+
+.main-header {
+  background-color: white;
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-foot{
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot1 { 
+  background-color: lightgray;
+  position: relative;
+  display: inline-block;
+  right: 300px;
+}
+
+.foot2 {
+  background-color: lightgray;
+  position: relative;
+  display: inline-block;
+}
+.footer-main {
+  color: gray; 
 }

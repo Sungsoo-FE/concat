@@ -1,0 +1,55 @@
+.App-logo {
+    pointer-events: none;
+    margin-left: 200px;
+}
+
+.main-header {
+    background-color: white;
+    max-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-right: 200px;
+}
+
+.topNav a:hover {
+    background-color: white;
+    color: blue;
+}
+  
+
+.nav-active {
+    overflow: hidden;
+    margin-right:15px;
+    margin-top: 9px;
+    float: right;
+    color: blue;
+    text-align: center;
+    padding: 100px, 80px;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+}
+
+.App-Nav {
+    overflow: hidden;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 100px, 80px;
+    margin-right: 200px;
+    margin-top: 9px;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+}

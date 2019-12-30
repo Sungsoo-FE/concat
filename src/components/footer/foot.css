@@ -1,0 +1,21 @@
+
+.main-foot{
+    background-color: lightgray;
+}
+  
+.foot1 { 
+    background-color: lightgray;
+    position: relative;
+    display: inline-block;
+    right: 300px;
+}
+  
+.foot2 {
+    background-color: lightgray;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-main {
+    color: gray; 
+}
