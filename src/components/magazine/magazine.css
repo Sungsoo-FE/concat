@@ -4,5 +4,38 @@
     height: auto;
     max-width: 100%;
     margin-bottom: 80px;
-  }
+}
   
+.main-text {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+  
+.cate-box {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    padding: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.m-img { 
+    margin-left: 200px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.searchbar {
+    margin-left: 800px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-width :175px;
+}
+
+.maga {
+    display: flex;
+    flex-direction: row;
+}

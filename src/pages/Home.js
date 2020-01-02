@@ -6,8 +6,6 @@ import News from '../components/news/news';
 import Pick from '../components/pick/pick';
 import Foot from '../components/footer/foot';
 import main from '../img/main.png';
-import Magazine from '../components/magazine/magazine';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 const Home = () => {
     return (
