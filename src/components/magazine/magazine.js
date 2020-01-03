@@ -16,7 +16,6 @@ import mag_img8 from '../../img/magazine/img8.png';
 const Magazine = () => {
     return (
         <div>
-            <Header />
             <div>
                 <img src = { mag_logo } className="mag_logo" alt="mag_logo">
                 </img>
@@ -67,7 +66,6 @@ const Magazine = () => {
                     </div>
                 </div>
             </div>
-            <Foot />
         </div>
     );
 }

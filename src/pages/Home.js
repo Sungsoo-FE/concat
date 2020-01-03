@@ -10,22 +10,12 @@ import main from '../img/main.png';
 const Home = () => {
     return (
       <div>
-        <Header/>
         <span>
           <img src= { main } className="main-logo" alt="main"></img>
         </span>
-        <div>
-          <h2 className="main-text">읽어봐야할 NEWS <span>📄</span></h2>
-        </div>
-        <div>
-          <News />
-        </div>
-        <div>
-          <Pick />
-        </div>
-        <div>
-          <Foot />
-        </div>
+        <h2 className="main-text">읽어봐야할 NEWS <span>📄</span></h2>
+        <News />
+        <Pick />
       </div>
     );
 }

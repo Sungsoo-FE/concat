@@ -1,3 +1,8 @@
+.pick-main{
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-left: -10px;
+}
 .pick-text{
     margin-left: 200px;
     margin-bottom: 100px;
@@ -9,21 +14,23 @@
 }
 
 .pick { 
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     left: 600px;
-    bottom: 525px;
+    bottom: 550px;
 }
   
 .pick2 {
     position: relative;
-    left: 437px;
-    bottom: 470px;
+    left: 600px;
+    bottom: 570px;
 }
   
 .pick3 {
     position: relative;
-    left: 270px;
-    bottom: 400px;
+    left: 600px;
+    bottom: 570px;
 }
   
 .img1 {
@@ -36,7 +43,8 @@
 }
 
 .sub-img {
-    float: left;
+    border: lightgray;
+    clear: both;
     overflow: hidden;
     height: auto;
     max-width: 100%;
@@ -48,4 +56,14 @@
     max-width: 300px;
     height: auto;
     overflow: hidden;
+}
+
+.img-sub-text {
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pick-table {
+    width: 100%;
 }

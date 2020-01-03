@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import Header from '../components/nav/nav';
-import Foot from '../components/footer/foot';
-
+import News from '../components/news/news';
+import Pick from '../components/pick/pick';
 const Content = () => {
     return (
         <div>
-            <Header/>
-            <Foot/>
+            <Pick/>
         </div>
     )
 }

@@ -14,21 +14,27 @@ const Pick = () => {
                 <h2 className="pick-left">제목은 여기에 써요</h2>
                 <h4 className="pick-left">투자자의 성향에 맞게 상품군 3가지를 추천해 드릴게요! 여기에도 미리 보기를 쓰시면 됩니다.</h4>
             </span>
+            <div>
             <span className="pick">
-                <img src= { img2 } className="sub-img" alt="img2"></img>
-                <h2 className="img-text">케이뱅크 vs 카카오뱅크</h2>
-                <h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4>
+                <tr>
+                <th><img src= { img2 } className="sub-img" alt="img2"></img></th>
+                </tr>
+                <tr>
+                <th><h2 className="img-text">케이뱅크 vs 카카오뱅크</h2></th>
+                <th><h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4></th>
+                </tr>
             </span>
-            <span className="pick2">
+            <span className="pick">
                 <img src= { img3 } className="sub-img" alt="img3"></img>
                 <h2 clssName="img-text">제목은 여기에 써요</h2>
                 <h4 className="img-text">블로그 글 내용의 일부를 여기에 쓰면 됩니다. 미리보기</h4> 
             </span>
-            <span className="pick3">
+            <span className="pick">
                 <img src= { img4 } className="sub-img" alt="img4"></img>
                 <h2 className="img-text">케이뱅크 vs 카카오뱅크</h2>
                 <h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4>
-            </span> 
+            </span>
+            </div> 
         </div>
     );
 };

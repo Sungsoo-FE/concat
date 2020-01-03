@@ -4,16 +4,15 @@
 }
   
 .foot1 { 
-    background-color: lightgray;
     position: relative;
     display: inline-block;
-    right: 300px;
+    left: 200px;
 }
   
 .foot2 {
-    background-color: lightgray;
     position: relative;
     display: inline-block;
+    left:500px;
 }
 
 .footer-main {

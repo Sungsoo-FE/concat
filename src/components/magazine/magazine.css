@@ -32,7 +32,8 @@
     margin-left: 800px;
     margin-bottom: 30px;
     overflow: hidden;
-    max-width :175px;
+    max-width: 175px;
+    height: 25px;
 }
 
 .maga {
