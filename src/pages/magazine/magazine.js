@@ -21,7 +21,7 @@ const Magazine = () => {
                 <div className = "text">
                     <h1> 당신의 앞서가는 금융생활을 위한 <br/> 보험플래너의 똑똑한 매거진! </h1>
                 </div>
-                <div className="logoimg"><img src= { logo_img } /></div>
+                <div className="logoimg"><img src= { logo_img } alt = "logoimg"/></div>
             </div>
             <div className = "main-wrapper">
                 <h2 className = "main-text">당신을 위한 매거진 <span>🗒</span></h2>

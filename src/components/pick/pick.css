@@ -1,36 +1,28 @@
-.pick-main{
-    background-color: lightgray;
-    padding-top: 10px;
-    padding-left: -10px;
-}
+
 .pick-text{
     margin-left: 200px;
     margin-bottom: 100px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .pick-left {
     margin-left: 200px;
     max-width: 370px;
+    height: auto;
+    overflow: hidden;
 }
 
-.pick { 
+.pick {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     left: 600px;
     bottom: 550px;
-}
-  
-.pick2 {
-    position: relative;
-    left: 600px;
-    bottom: 570px;
-}
-  
-.pick3 {
-    position: relative;
-    left: 600px;
-    bottom: 570px;
 }
 
 .img1 {

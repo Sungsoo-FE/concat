@@ -1,18 +1,28 @@
 
 .main-foot{
     background-color: lightgray;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
   
 .foot1 { 
     position: relative;
     display: inline-block;
     left: 200px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
   
 .foot2 {
     position: relative;
     display: inline-block;
     left:500px;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 .footer-main {

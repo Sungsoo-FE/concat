@@ -12,12 +12,18 @@
     left:200px;
     width: 700px;
     color: white;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .mag_logo .logoimg {
     position: absolute;
     top:100px;
     left:700px;
+    max-width:100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .main-wrapper {
@@ -55,15 +61,21 @@
 }
 
 .m-img { 
+    max-width: 100%;
+    height: auto;
     margin-left: 200px;
     margin-top: 11px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .m-img2 {
+    max-width: 100%;
+    height: auto;
     margin-left: 50px;
     margin-top: 11px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .searchbar {

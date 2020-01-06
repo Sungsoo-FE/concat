@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.png';
 import './nav.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header=() => {
     return (
@@ -10,8 +10,8 @@ const Header=() => {
                 <nav className="topnav">
                     <Link to ="/">
                     <img src={ logo } className="App-logo" alt="logo"/></Link>
-                    <Link to ="/magazine" className="App-Nav">MAGAZINE</Link>
-                    <Link to ="/" className="nav-active">HOME</Link>
+                    <NavLink to ="/magazine" className="App-Nav" activeStyle = {{ color: 'blue'}}>MAGAZINE</NavLink>
+                    <NavLink exact to ="/" className="nav-active" activeStyle = {{ color: 'blue'}}>HOME</NavLink>
                 </nav>
             </header>
         </div>

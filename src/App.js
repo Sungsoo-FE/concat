@@ -6,7 +6,7 @@ import Content from './pages/content';
 import Header from './components/nav/nav';
 import Foot from './components/footer/foot';
 
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
