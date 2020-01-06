@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import img1 from '../../img/img1.png';
 import img2 from '../../img/img2.png';
 import img3 from '../../img/img3.png';
@@ -16,23 +16,25 @@ const Pick = () => {
             </span>
             <div>
             <span className="pick">
-                <tr>
-                <th><img src= { img2 } className="sub-img" alt="img2"></img></th>
-                </tr>
-                <tr>
-                <th><h2 className="img-text">케이뱅크 vs 카카오뱅크</h2></th>
-                <th><h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4></th>
-                </tr>
+                <img src= { img2 } className="sub-img" alt="img2"></img>
+                <span className="img-sub-text">
+                    <h2 className="img-text">케이뱅크 vs 카카오뱅크</h2>
+                    <h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4>
+                </span>
             </span>
             <span className="pick">
                 <img src= { img3 } className="sub-img" alt="img3"></img>
-                <h2 clssName="img-text">제목은 여기에 써요</h2>
-                <h4 className="img-text">블로그 글 내용의 일부를 여기에 쓰면 됩니다. 미리보기</h4> 
+                <span className="img-sub-text">
+                    <h2 clssName="img-text">제목은 여기에 써요</h2>
+                    <h4 className="img-text">블로그 글 내용의 일부를 여기에 쓰면 됩니다. 미리보기</h4> 
+                </span>
             </span>
             <span className="pick">
                 <img src= { img4 } className="sub-img" alt="img4"></img>
-                <h2 className="img-text">케이뱅크 vs 카카오뱅크</h2>
-                <h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4>
+                <spane className="img-sub-text">
+                    <h2 className="img-text">케이뱅크 vs 카카오뱅크</h2>
+                    <h4 className="img-text">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</h4>
+                </spane>
             </span>
             </div> 
         </div>

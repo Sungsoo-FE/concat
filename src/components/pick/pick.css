@@ -32,7 +32,7 @@
     left: 600px;
     bottom: 570px;
 }
-  
+
 .img1 {
     display: flex;
     overflow: hidden;
@@ -59,7 +59,7 @@
 }
 
 .img-sub-text {
-    max-width: 300px;
+    float:left;
     height: auto;
     overflow: hidden;
 }

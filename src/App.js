@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './pages/Home';
-import Magazine from './components/magazine/magazine';
+import Magazine from './pages/magazine/magazine';
 import Content from './pages/content';
 import Header from './components/nav/nav';
 import Foot from './components/footer/foot';

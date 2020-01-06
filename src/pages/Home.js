@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
 import '../components/nav/nav.css';
-import Header from '../components/nav/nav';
 import News from '../components/news/news';
 import Pick from '../components/pick/pick';
-import Foot from '../components/footer/foot';
 import main from '../img/main.png';
 
 const Home = () => {

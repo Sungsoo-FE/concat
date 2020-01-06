@@ -1,9 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.png';
 import './nav.css';
-//import Magazine from '../../pages/magazine';
-//import App from '../../App';
-import { Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header=() => {
     return (

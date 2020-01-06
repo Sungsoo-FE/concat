@@ -1,0 +1,84 @@
+.mag_logo {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    background-size: cover;
+    max-width: 100%;
+    margin-bottom: 80px;
+}
+.mag_logo .text{
+    position: absolute;
+    top: 150px;
+    left:200px;
+    width: 700px;
+    color: white;
+}
+
+.mag_logo .logoimg {
+    position: absolute;
+    top:100px;
+    left:700px;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.cate-wrapper {
+    float: left;
+}
+
+.main-text {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+  
+.cate-box {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    padding: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cate-box2 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+    padding: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.m-img { 
+    margin-left: 200px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.m-img2 {
+    margin-left: 50px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.searchbar {
+    margin-left: 600px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-width: 175px;
+    height: 25px;
+}
+
+.maga {
+    display: flex;
+    flex-direction: row;
+}
+
+.mag-wrapper {
+    margin-bottom: 100px;
+}
