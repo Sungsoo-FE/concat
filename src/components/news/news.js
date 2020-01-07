@@ -5,7 +5,7 @@ const News = ()=> {
     return (        
         <div>
             <div>
-                <a className="cate-box">보험</a>
+                <a className="categ-box">보험</a>
                 <span className="text-box">
                     <a href="#news1">news1</a><br/>
                     <a href="#news2">news2</a><br/>
@@ -14,7 +14,7 @@ const News = ()=> {
                 </span>
             </div>
             <div>
-                <a className="cate-box">금융</a>
+                <a className="categ-box">금융</a>
                 <span className="text-box">
                     <a href="#news1">news1</a><br/>
                     <a href="#news2">news2</a><br/>
@@ -23,7 +23,7 @@ const News = ()=> {
                 </span>
             </div>
             <div>
-                <a className="cate-box">핀테크</a>
+                <a className="categ-box">핀테크</a>
                 <span className="text-box">
                     <a href="#news1">news1</a><br/>
                     <a href="#news2">news2</a><br/>

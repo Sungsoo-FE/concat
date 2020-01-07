@@ -1,7 +1,7 @@
 
 .main-foot{
     background-color: lightgray;
-    width: auto;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
 }
@@ -10,17 +10,17 @@
     position: relative;
     display: inline-block;
     left: 200px;
-    width: auto;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
 }
   
 .foot2 {
+    background-color: lightgray;
     position: relative;
     display: inline-block;
     left:500px;
-    background-color: lightgray;
-    width: auto;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
 }

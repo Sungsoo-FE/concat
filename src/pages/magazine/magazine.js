@@ -16,7 +16,7 @@ import mag_img8 from '../../img/magazine/img8.png';
 const Magazine = () => {
     return (
         <div>
-            <div class="mag_logo">
+            <div className="mag_logo">
                 <img src= { mag_logo } alt = "mag_logo"/>
                 <div className = "text">
                     <h1> 당신의 앞서가는 금융생활을 위한 <br/> 보험플래너의 똑똑한 매거진! </h1>
@@ -28,46 +28,50 @@ const Magazine = () => {
                 <input className="searchbar" name="keyword" placeholder = "매거진 검색하기"/>  
             </div>
             <div className = "mag-wrapper">
-                <div className = "maga">
-                    <div className = "cate-wrapper">
+                <div className= "maga">
+                    <div className = "divChild">
                         <a className = "cate-box">보험</a>
                         <Link to = "/content" ><img src = { mag_img1 } className = "m-img" alt = "mag_img1"></img></Link>
                     </div>
-                    <div>
+                    <div className = "divChild">
                         <a className = "cate-box2">보험</a>
                         <Link to = "/content"><img src = { mag_img2} className = "m-img2" alt = "mag_img2"></img></Link> 
                     </div>
                 </div>
+                <div/>
                 <div className = "maga">
-                    <div>
+                    <div className= "divChild">
                         <a className = "cate-box">주식</a>
                         <Link to = "/content" ><img src = { mag_img3 } className = "m-img" alt = "mag_img3"></img></Link> 
                     </div>
-                    <div>
+                    <div className= "divChild">
                         <a className = "cate-box2">가상화폐</a>
                         <Link to = "/content"><img src = { mag_img4 } className = "m-img2" alt = "mag_img4"></img></Link> 
                     </div>
                 </div>
+                <div/>
                 <div className = "maga">
-                    <div>
+                    <div className = "divChild">
                         <a className = "cate-box">가상화폐</a>
                         <Link to = "/content"><img src = { mag_img5 } className = "m-img" alt = "mag_img5"></img></Link> 
                     </div>
-                    <div>
+                    <div className = "divChild">
                         <a className = "cate-box2">가상화폐</a>
                         <Link to = "/content"><img src = { mag_img6 } className = "m-img2" alt = "mag_img6"></img></Link> 
                     </div>
                 </div>
+                <div/>
                 <div className = "maga">
-                    <div>
+                    <div className = "divChild">
                         <a className = "cate-box">가상화폐</a>
                         <Link to ="/content"><img src = { mag_img7 } className = "m-img" alt = "mag_img7"></img></Link> 
                     </div>
-                    <div>
+                    <div className = "divChild">
                         <a className = "cate-box2">가상화폐</a>
                         <Link to ="/content"><img src = { mag_img8 } className = "m-img2" alt = "mag_img8"></img></Link> 
                     </div>
                 </div>
+                <div/>
             </div>
         </div>
     );
