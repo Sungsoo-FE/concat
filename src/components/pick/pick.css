@@ -2,16 +2,18 @@
 .pick-wrapper {
     display:flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: calc( 100% - 200px );
     margin-left: 200px;
+    margin-bottom: 100px;
 }
 .right-wrapper {
+    margin-left: 100px;
 }
 .left-wrapper {
 }
 .pick-text{
     margin-bottom: 100px;
-    width: 100%;
+    width: calc( 100% - 200px );
     height: auto;
     overflow: hidden;
 }
@@ -27,7 +29,6 @@
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    bottom: 550px;
 }
 
 .img1 {

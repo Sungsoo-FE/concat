@@ -15,6 +15,7 @@
     max-width: 100%;
     height: auto;
     overflow: hidden;
+    font-size: 1rem;
 }
 
 .mag_logo .logoimg {
@@ -114,6 +115,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    overflow: hidden;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
 }
 
 .mag-wrapper {
