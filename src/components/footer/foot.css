@@ -1,28 +1,26 @@
 
-.main-foot{
+.foot-wrapper{
     background-color: lightgray;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /*@media screen {
+        min-width: 900px;
+        font-size: 5px;
+    }*/
 }
   
 .foot1 { 
-    position: relative;
-    display: inline-block;
-    left: 200px;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 200px;
+    width: calc( 100% - 400px);
 }
   
 .foot2 {
+    margin-left: 200px;
     background-color: lightgray;
-    position: relative;
-    display: inline-block;
-    left:500px;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+    width: calc( 100% - 200px);
+    max-width: 410px;
 }
 
 .footer-main {

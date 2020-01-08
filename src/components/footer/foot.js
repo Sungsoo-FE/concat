@@ -3,7 +3,7 @@ import './foot.css';
 
 const Foot = () => {
     return (
-        <div className="main-foot">
+        <div className="foot-wrapper">
             <span className="foot1">
                 <h1 className = "footer-main">안내</h1>
                 <h4 className = "footer-main">서비스 이용약관</h4>

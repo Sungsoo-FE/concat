@@ -7,9 +7,11 @@
     margin-bottom: 100px;
 }
 .right-wrapper {
-    margin-left: 100px;
+    position: relative;
+    bottom: 40px;
 }
 .left-wrapper {
+    margin-right: 30px;
 }
 .pick-text{
     margin-bottom: 100px;
