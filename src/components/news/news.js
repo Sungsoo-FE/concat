@@ -6,30 +6,48 @@ const News = ()=> {
         <div>
             <div>
                 <a className="categ-box">보험</a>
-                <span className="text-box">
-                    <a href="#news1">news1</a><br/>
-                    <a href="#news2">news2</a><br/>
-                    <a href="#news3">news3</a><br/>
-                    <a href="#news4">news4</a>
-                </span>
+                <tr className="text-box">
+                    <a href="#"><td href="#news1" className="news-text">news1</td></a>
+                    <tr>
+                        <a href="#"><td href="#news2" className="news-text">news2</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news3" className="news-text">news3</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news4" className="news-text">news4</td></a>
+                    </tr>
+                </tr>
             </div>
             <div>
                 <a className="categ-box">금융</a>
-                <span className="text-box">
-                    <a href="#news1">news1</a><br/>
-                    <a href="#news2">news2</a><br/>
-                    <a href="#news3">news3</a><br/>
-                    <a href="#news4">news4</a><br/>
-                </span>
+                <tr className="text-box">
+                    <a href="#"><td href="#news1" className="news-text">news1</td></a>
+                    <tr>
+                        <a href="#"><td href="#news2" className="news-text">news2</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news3" className="news-text">news3</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news4" className="news-text">news4</td></a>
+                    </tr>
+                </tr>
             </div>
             <div>
                 <a className="categ-box">핀테크</a>
-                <span className="text-box">
-                    <a href="#news1">news1</a><br/>
-                    <a href="#news2">news2</a><br/>
-                    <a href="#news3">news3</a><br/>
-                    <a href="#news4">news4</a><br/>
-                </span>
+                <tr className="text-box">
+                    <a href="#"><td href="#news1" className="news-text">news1</td></a>
+                    <tr>
+                        <a href="#"><td href="#news2" className="news-text">news2</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news3" className="news-text">news3</td></a>
+                    </tr>
+                    <tr>
+                        <a href="#"><td href="#news4" className="news-text">news4</td></a>
+                    </tr>
+                </tr>
             </div>
         </div>
     );

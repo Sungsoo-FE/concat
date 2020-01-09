@@ -1,0 +1,45 @@
+
+.con-title {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.con-logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: auto;
+}
+
+.con-text {
+    margin-left: 15px;
+}
+
+.con-date {
+    color: lightslategrey;
+}
+
+.box-wrapper {
+    margin-top:30px;
+    margin-bottom: 100px;
+}
+.con-box {
+    background-color:#e9e9e9;
+    margin-left: 10px;
+    color: royalblue;
+    text-align: center;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.con-img {
+    margin-bottom: 20px;
+}
+
+.con-main-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-bottom: 150px;
+}

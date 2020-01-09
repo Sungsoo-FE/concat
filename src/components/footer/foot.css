@@ -1,26 +1,19 @@
-
 .foot-wrapper{
     background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
-    /*@media screen {
-        min-width: 900px;
-        font-size: 5px;
-    }*/
 }
-  
+
 .foot1 { 
     margin-left: 200px;
     margin-right: 200px;
-    max-width: 200px;
-    width: calc( 100% - 400px);
+    width: 20%;
 }
   
 .foot2 {
-    margin-left: 200px;
+    margin-left: 160px;
     background-color: lightgray;
-    width: calc( 100% - 200px);
-    max-width: 410px;
+    width: 30%;
 }
 
 .footer-main {
