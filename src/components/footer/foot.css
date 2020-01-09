@@ -6,16 +6,18 @@
 
 .foot1 { 
     margin-left: 200px;
-    margin-right: 200px;
     width: 20%;
 }
   
 .foot2 {
-    margin-left: 160px;
     background-color: lightgray;
     width: 30%;
 }
 
 .footer-main {
     color: gray; 
+}
+
+.foot-space {
+    width:10%;
 }
