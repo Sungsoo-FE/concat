@@ -1,34 +1,21 @@
 .mag_logo {
-    position: relative;
-    overflow: hidden;
+    width: 100%;
     height: auto;
-    background-size: cover;
-    max-width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 80p10;
 }
-.mag_logo .text{
-    position: absolute;
-    top: 150px;
-    left:200px;
-    width: 700px;
-    color: white;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-    font-size: 1rem;
+.mag_logo_img {
+    width: 100%;
 }
-
-.mag_logo .logoimg {
-    position: absolute;
-    top:100px;
-    left:700px;
-    max-width:100%;
-    height: auto;
-    overflow: hidden;
+.rootDiv {
+    width: 100vw;
+}
+.logo-wrapper {
+    width: 100%;
 }
 
 .main-wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-text {

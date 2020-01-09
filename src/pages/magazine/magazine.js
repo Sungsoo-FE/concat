@@ -3,7 +3,6 @@ import "./magazine.css";
 import { Link } from "react-router-dom";
 
 import mag_logo from '../../img/magazine/mag_logo.png';
-import logo_img from '../../img/magazine/logoimg.png';
 import mag_img1 from '../../img/magazine/img1.png';
 import mag_img2 from '../../img/magazine/img2.png';
 import mag_img3 from '../../img/magazine/img3.png';
@@ -15,13 +14,9 @@ import mag_img8 from '../../img/magazine/img8.png';
 
 const Magazine = () => {
     return (
-        <div>
-            <div className="mag_logo">
-                <img src= { mag_logo } alt = "mag_logo"/>
-                <div className = "text">
-                    <h1> 당신의 앞서가는 금융생활을 위한 <br/> 보험플래너의 똑똑한 매거진! </h1>
-                </div>
-                <div className="logoimg"><img src= { logo_img } alt = "logoimg"/></div>
+        <div className = "rootDiv">
+            <div className = "mag_logo">
+                <img className="mag_logo_img" src= { mag_logo } alt = "mag_logo"/>    
             </div>
             <div className = "main-wrapper">
                 <h2 className = "main-text">당신을 위한 매거진 <span>🗒</span></h2>
