@@ -1,6 +1,5 @@
 import React from 'react';
 import './foot.css';
-import media from '../../media';
 
 const Foot = () => {
     return (

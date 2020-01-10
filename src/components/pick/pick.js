@@ -8,7 +8,7 @@ import './pick.css';
 const Pick = () => {
     return (
         <div className="pick-wrapper">
-             <h2 className="pick-text">보험플래너 PICK! <span>👈</span></h2>
+            <h2 className="pick-text">보험플래너 PICK! 👈</h2>
             <div className="left-wrapper">
                 <span className="pick-left">
                     <img src= { img1 } className="img1" alt="img1"></img>

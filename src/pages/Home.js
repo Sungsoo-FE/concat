@@ -11,7 +11,7 @@ const Home = () => {
         <span>
           <img src= { main } className="main-logo" alt="main"></img>
         </span>
-        <h2 className="main-text">읽어봐야할 NEWS <span>📄</span></h2>
+        <h2 className="main-text">읽어봐야할 NEWS 📄</h2>
         <News />
         <Pick />
       </div>

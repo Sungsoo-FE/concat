@@ -3,8 +3,9 @@
     display:flex;
     flex-wrap: wrap;
     width: calc( 100% - 200px );
-    margin-left: 200px;
+    padding-left: 200px;
     margin-bottom: 100px;
+    background-color: #f6f6f6;
 }
 .right-wrapper {
     position: relative;
@@ -12,10 +13,13 @@
 }
 .left-wrapper {
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 .pick-text{
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 100px;
-    width: calc( 100% - 200px );
+    width: 80%;
     height: auto;
     overflow: hidden;
 }
