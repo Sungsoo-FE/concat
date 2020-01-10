@@ -34,6 +34,8 @@
 }
 
 .con-img {
+    width: 80%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -42,4 +44,9 @@
     flex-wrap: wrap;
     width: 70%;
     margin-bottom: 150px;
+}
+
+.news-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
