@@ -1,5 +1,5 @@
 .foot-wrapper{
-    background-color: lightgray;
+    background-color: #f9f9f9;
     display: flex;
     flex-wrap: wrap;
 }
@@ -10,8 +10,12 @@
 }
   
 .foot2 {
-    background-color: lightgray;
+    background-color: #f9f9f9;
     width: 30%;
+}
+
+.foot-sub-col {
+    color: #d3d3d3;
 }
 
 .footer-main {

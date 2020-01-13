@@ -8,10 +8,10 @@ const Header=() => {
         <div>
             <header className="main-header">
                 <nav className="topnav">
-                    <Link to ="/">
+                    <Link to ="/" className = "logo-Link">
                     <img src={ logo } className="App-logo" alt="logo"/></Link>
                     <NavLink to ="/magazine" className="App-Nav" activeStyle = {{ color: 'blue'}}>MAGAZINE</NavLink>
-                    <NavLink exact to ="/" className="nav-active" activeStyle = {{ color: 'blue'}}>HOME</NavLink>
+                    <NavLink exact to ="/" className="App-Nav" activeStyle = {{ color: 'blue'}}>HOME</NavLink>
                 </nav>
             </header>
         </div>
