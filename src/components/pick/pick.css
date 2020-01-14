@@ -7,6 +7,12 @@
     margin-bottom: 100px;
     background-color: #f9f9f9;
 }
+
+.pick-text-wrapper {
+    width: 70%;
+    padding: 0 auto;
+}
+
 .right-wrapper {
     position: relative;
     bottom: 40px;

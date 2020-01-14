@@ -8,10 +8,12 @@ import main from '../img/main.png';
 const Home = () => {
     return (
       <div>
-        <span>
+        <div>
           <img src= { main } className="main-logo" alt="main"></img>
-        </span>
-        <h2 className="main-text">읽어봐야할 NEWS 📄</h2>
+        </div>
+        <div className = "text-wrapper">
+          <h2 className="main-news-text">읽어봐야할 NEWS 📄</h2>
+        </div>
         <News />
         <Pick />
       </div>

@@ -5,15 +5,15 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header=() => {
     return (
-        <div>
-            <header className="main-header">
+        <div className = "header-wrapper">
+            <div className="main-header">
                 <nav className="topnav">
-                    <Link to ="/" className = "logo-Link">
+                    <Link to ="/">
                     <img src={ logo } className="App-logo" alt="logo"/></Link>
                     <NavLink to ="/magazine" className="App-Nav" activeStyle = {{ color: 'blue'}}>MAGAZINE</NavLink>
                     <NavLink exact to ="/" className="App-Nav" activeStyle = {{ color: 'blue'}}>HOME</NavLink>
                 </nav>
-            </header>
+            </div>
         </div>
     );
 };
