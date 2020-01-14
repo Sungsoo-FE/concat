@@ -8,6 +8,7 @@ import './pick.css';
 const Pick = () => {
     return (
         <div className="pick-wrapper">
+            <div className></div>
             <h2 className="pick-text">보험플래너 PICK! 👈</h2>
             <div className="left-wrapper">
                 <span className="pick-left">

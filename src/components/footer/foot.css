@@ -1,17 +1,26 @@
-.foot-wrapper{
+.foot-wrapper {
     background-color: #f9f9f9;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.foot-wrapper2 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .foot1 { 
-    margin-left: 200px;
     width: 20%;
 }
   
 .foot2 {
     background-color: #f9f9f9;
-    width: 30%;
+    width: 45%;
 }
 
 .foot-sub-col {
@@ -23,5 +32,5 @@
 }
 
 .foot-space {
-    width:10%;
+    width:35%;
 }
