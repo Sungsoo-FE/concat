@@ -1,7 +1,7 @@
 
 .con-title {
+    width: 100%;
     margin-top: 150px;
-    margin-left: 200px;
 }
 
 .con-logo {
@@ -9,6 +9,13 @@
     flex-wrap: wrap;
     width: 20%;
     height: auto;
+}
+
+.con-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .con-text {
@@ -49,4 +56,8 @@
 .news-wrapper {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }

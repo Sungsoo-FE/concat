@@ -1,9 +1,8 @@
 .text-wrapper{
-  width: 100%;
-}
-.main-news-text {
   width: 70%;
   margin: 0 auto;
+}
+.main-news-text {
   margin-bottom: 40px;
 }
 
