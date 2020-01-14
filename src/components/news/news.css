@@ -5,12 +5,11 @@
 }
 
 .cate-wrapper {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
 }
 .categ-box {
     background-color: #3254E4;
-    text-align: center;
+  
     color: white;
     padding: 9px;
     padding-left: 15px;

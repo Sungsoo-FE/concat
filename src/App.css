@@ -1,17 +1,6 @@
-.text-wrapper{
-  width: 70%;
-  margin: 0 auto;
-}
+
 .main-news-text {
   margin-bottom: 40px;
-}
-
-.main-logo {
-  display: flex;
-  overflow: hidden;
-  height: auto;
-  max-width: 100%;
-  margin-bottom: 80px;
 }
 
 .main-header {

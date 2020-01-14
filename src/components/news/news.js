@@ -1,9 +1,13 @@
 import React from 'react';
 import './news.css';
+import styled from 'styled-components';
 
+const NewsWrapper = styled.div`
+    width: 100%;
+`;
 const News = ()=> {
     return (        
-        <div className = "news-wrapper">
+        <NewsWrapper>
             <div className = "cate-wrapper">
                 <a className="categ-box">보험</a>
                 <tr className="text-box">
@@ -49,7 +53,7 @@ const News = ()=> {
                     </tr>
                 </tr>
             </div>
-        </div>
+        </NewsWrapper>
     );
 };
 
