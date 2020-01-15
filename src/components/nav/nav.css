@@ -3,12 +3,14 @@
 }
 
 .header-wrapper {
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .main-header {
+    width: 900px;
     position: relative;
-    margin: 0 auto;
 }
 
 .topnav {

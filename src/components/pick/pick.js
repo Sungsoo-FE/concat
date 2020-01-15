@@ -10,11 +10,26 @@ const StyledRootDiv = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #f5f5f5; 
+    padding-top: 59px;
+    padding-bottom: 94px;
+    margin-bottom: 70px;
+    ${Media.small`
+        padding-top: 23px;
+        padding-bottom: 35px;
+        margin-bottom: 26px;
+    `}
     .innerDiv3 {
-        width : 46.875%;
-        ${Media.small`width: 91.6%;`}
+        width : 900px;
+        
         display: flex;
         flex-wrap: wrap;
+        ${Media.small`
+            width: 91.6%;
+            flex-wrap: no-wrap;
+            flex-direction: column;
+            align-items: center;
+        `}
         justify-content: space-between;
         .right-wrapper {
             width: 436px;
@@ -27,12 +42,22 @@ const StyledRootDiv = styled.div`
         .left-wrapper {
             width: 318px;
             align-self: flex-end;
+            ${Media.small`
+                align-self: center;
+                margin-bottom: 69px;
+            `}  
         }
         .pick-text{
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             overflow: hidden;
+            margin-bottom: 78px;
+            font-weight: 900;
+            font-size: 30px;
+            ${Media.small`
+                margin-bottom: 47px;
+            `}  
         }
 
         .pick-left {
@@ -87,7 +112,7 @@ const Pick = () => {
         <StyledRootDiv>
             <div className="innerDiv3">
                 <div></div>
-                <h2 className="pick-text">보험플래너 PICK! 👈</h2>
+                <div className="pick-text">보험플래너 PICK! 👈</div>
                 <div className="left-wrapper">
                     <span className="pick-left">
                         <img src= { img1 } className="img1" alt="img1"></img>

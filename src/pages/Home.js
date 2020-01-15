@@ -21,7 +21,7 @@ const StyledRootDiv = styled.div`
     margin-bottom: 80px;
   }
   .innerDiv2 {
-    width : 46.875%;
+    width : 900px;
     ${Media.small`width: 91.6%;`}
     .text-wrapper {
       width: 100%;

@@ -2,13 +2,11 @@
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
 .foot-wrapper2 {
-    width: 70%;
-    margin: 0 auto;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
