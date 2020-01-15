@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .foot1 { 
@@ -30,5 +31,5 @@
 }
 
 .foot-space {
-    width:20%;
+    width:25%;
 }

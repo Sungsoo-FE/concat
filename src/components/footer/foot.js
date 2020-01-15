@@ -11,7 +11,7 @@ const Foot = () => {
                     <h4 className = "foot-sub-col">개인정보 취급방침</h4>
                     <h4 className = "foot-sub-col">위치기반서비스 이용약관</h4>
                 </div>
-                <div className = "foot-space"></div>
+                {/* <div className = "foot-space"></div> */}
                 <div className="foot2">
                     <h1 className = "footer-main">CONCAT</h1>
                     <h4 className = "foot-sub-col">콘캣주식회사 | 사업자 등록번호:460-86-01068 | 대표:김재엽</h4>

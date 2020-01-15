@@ -10,13 +10,10 @@
 
 .main-header {
     width: 900px;
-    position: relative;
 }
 
 .topnav {
     width: 100%;
-    position: relative;
-    overflow: hidden;
     border-bottom: solid lightgray;
 }
 
