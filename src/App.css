@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: nanumsquare;
+  src: url(./lib/utils/NanumSquareOTFRegular.otf);
+}
 .main-news-text {
   margin-bottom: 40px;
 }
@@ -11,4 +15,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
