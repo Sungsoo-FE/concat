@@ -10,6 +10,10 @@ import pick_img from '../../img/pick-s-img.png';
 const StyledRootDiv = styled.div`
     width: 100%;
     display: flex;
+    @font-face {
+        font-family: 'NanumSquare';
+        src: url(./Font/NanumSquareOTFRegular.otf) format('otf');
+    }
     justify-content: center;
     background-color: #f5f5f5; 
     padding-top: 59px;
@@ -52,13 +56,12 @@ const StyledRootDiv = styled.div`
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            overflow: hidden;
             margin-bottom: 78px;
             font-weight: 900;
             font-size: 30px;
             ${Media.small`
                 margin-bottom: 47px;
-            `}  
+            `}
         }
 
         .pick-left {
@@ -71,6 +74,10 @@ const StyledRootDiv = styled.div`
             height: auto;
             overflow: hidden;
             display: flex;
+            margin-bottom: 42px;
+            border-bottom: solid;
+            border-width: 0.03px;
+            border-color: #707070;
 
         }
 
@@ -88,6 +95,7 @@ const StyledRootDiv = styled.div`
             clear: both;
             overflow: hidden;
             margin-right: 17px;
+            margin-bottom: 43px;
         }
 
         .img-text {
@@ -99,7 +107,6 @@ const StyledRootDiv = styled.div`
         }
         .img-sub-text {
             width: 270px;
-            height: auto;
         }
         .i-t-wrapper {
             display: flex;
@@ -113,7 +120,7 @@ const StyledRootDiv = styled.div`
             flex-direction: row;
             color: #707070;
             font-size: 18px;
-            margin-top: 24px;    
+            margin-top: 24px;
         }
     }
 `;

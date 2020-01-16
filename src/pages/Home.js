@@ -36,7 +36,7 @@ const Home = () => {
         
         <div className="innerDiv2">
           <div className="text-wrapper">
-           <h2 className="main-news-text">읽어봐야할 NEWS 📄</h2>
+           <div className="main-news-text">읽어봐야할 NEWS 📄</div>
           </div>
           <News />
         </div>

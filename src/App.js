@@ -8,7 +8,6 @@ import Foot from './components/footer/foot';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import styled from 'styled-components';
-import Media from './lib/utils/mediaquery';
 
 
 const StyledWrapper = styled.div`
