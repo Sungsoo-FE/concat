@@ -101,9 +101,11 @@ const StyledRootDiv = styled.div`
         .img-text {
             font-size: 25px;
             font-weight: bold;
+            margin-bottom: 26px;
         }
         .img-text-content {
             font-size: 20px;
+            margin-bottom: 26px;
         }
         .img-sub-text {
             width: 270px;
@@ -145,7 +147,7 @@ const Pick = () => {
                         <span className="img-sub-text">
                             <div className="img-text">케이뱅크 vs 카카오뱅크</div>
                             <div className="img-text-content">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</div>
-                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>애디터 이름</div>
+                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>에디터 이름</div>
                         </span>
                     </span>
                     <span className="pick">
@@ -153,7 +155,7 @@ const Pick = () => {
                         <span className="img-sub-text">
                             <div className="img-text">제목은 여기에 써요</div>
                             <div className="img-text-content">블로그 글 내용의 일부를 여기에 쓰면 됩니다. 미리보기</div> 
-                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>애디터 이름</div>
+                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>에디터 이름</div>
                         </span>
                     </span>
                     <span className="pick">

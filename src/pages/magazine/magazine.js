@@ -20,8 +20,7 @@ const Magazine = () => {
             </div>
             <div className = "main-wrap-wrapper">
                 <div className = "main-wrapper">
-                    <h2 className = "main-text">당신을 위한 매거진 🗒</h2>
-                    <div className = "txt-wrapper"></div>
+                    <div className = "main-text">당신을 위한 매거진 🗒</div>
                     <input className="searchbar" name="keyword" placeholder = "매거진 검색하기"/>  
                 </div>
             </div>

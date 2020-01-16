@@ -8,16 +8,18 @@ const Content = () => {
     return (
         <div className = "con-title">
             <div className = "con-wrapper">
-                <h1>미국 FA들이 답한 비법! </h1>
-                <div className = "con-logo">
-                    <img src = { con_logo } alt = "con_logo"/>
-                    <a className = "con-text">보험플래너 <br/>
-                    <a className = "con-date">2019.12.26</a>
-                    </a>
-                </div>
-                <div className = "box-wrapper">
-                    <a className = "con-box"># 포함</a>
-                    <a className = "con-box"># 미국 FA</a>
+                <div className = "con-title-text">미국 FA들이 답한 비법! </div>
+                <div className = "context-wrapper">
+                    <div className = "con-logo">
+                        <img src = { con_logo } alt = "con_logo"/>
+                        <a className = "con-text">보험플래너 <br/>
+                        <a className = "con-date">2019.12.26</a>
+                        </a>
+                    </div>
+                    <div className = "box-wrapper">
+                        <a className = "con-box"># 포함</a>
+                        <a className = "con-box"># 미국 FA</a>
+                    </div>
                 </div>
             </div>
             <div className = "news-wrapper">
