@@ -33,7 +33,6 @@ const Home = () => {
     return (
       <StyledRootDiv>
         <img src= { main } className="main-logo" alt="main"/>
-        
         <div className="innerDiv2">
           <div className="text-wrapper">
            <div className="main-news-text">읽어봐야할 NEWS 📄</div>
