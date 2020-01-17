@@ -24,8 +24,10 @@
 
 .foot-sub-col {
     color: #d3d3d3;
+    font-size: 16px;
 }
 
 .footer-main {
-    color: gray; 
+    color: gray;
+    font-size: 20px; 
 }

@@ -6,11 +6,12 @@
 
 .categ-box {
     background-color: #3254E4;
-  
+    width: 90px;
+    height: 34px;
     color: white;
-    padding: 9px;
     padding-left: 15px;
     padding-right: 15px;
+    font-weight: 900;
 }
   
 .text-box {
