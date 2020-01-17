@@ -10,7 +10,6 @@ const NewsWrapper = styled.div`
         ${Media.small`
             margin-left: 36px;
             margin-right: 36px;
-            width:828px;
         `}
     }
 `;
