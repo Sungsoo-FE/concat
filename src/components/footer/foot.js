@@ -1,5 +1,21 @@
 import React from 'react';
 import './foot.css';
+import styled from 'styled-components';
+import Media from '../../lib/utils/mediaquery';
+
+// const FootWrapper = styled.div`
+//     width: 100%;
+//     .foot-wrapper {
+//         background-color: #f9f9f9;
+//         display: flex;
+//         justify-content: center;
+//         width: 100%;
+//         ${Media.small`
+//             margin-left: 36px;
+//             margin-right: 36px;
+//         `}
+//     }
+// `;
 
 const Foot = () => {
     return (

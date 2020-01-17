@@ -24,7 +24,7 @@ const StyledRootDiv = styled.div`
     width : 900px;
     ${Media.small`width: 91.6%;`}
     .text-wrapper {
-      margin-left: 36px;
+      width: 100%;
     }
   }
 `;

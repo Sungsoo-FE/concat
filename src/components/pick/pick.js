@@ -98,6 +98,7 @@ const StyledRootDiv = styled.div`
         .img-text-content {
             font-size: 20px;
             margin-bottom: 26px;
+            line-height: 32px;
         }
         .img-sub-text {
             width: 270px;
