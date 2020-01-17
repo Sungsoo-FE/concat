@@ -10,10 +10,6 @@ import pick_img from '../../img/pick-s-img.png';
 const StyledRootDiv = styled.div`
     width: 100%;
     display: flex;
-    @font-face {
-        font-family: 'NanumSquare';
-        src: url(./Font/NanumSquareOTFRegular.otf) format('otf');
-    }
     justify-content: center;
     background-color: #f5f5f5; 
     padding-top: 59px;
@@ -42,13 +38,16 @@ const StyledRootDiv = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            ${Media.small`
+                align-self: flex-start;
+            `}
             margin-right: 36px;
         }
         .left-wrapper {
             width: 318px;
             align-self: flex-end;
             ${Media.small`
-                align-self: center;
+                align-self: flex-start;
                 margin-bottom: 69px;
             `}  
         }
@@ -66,25 +65,19 @@ const StyledRootDiv = styled.div`
 
         .pick-left {
             width: 318px;
-            height: auto;
-            overflow: hidden;
         }
 
         .pick {
-            height: auto;
-            overflow: hidden;
             display: flex;
             margin-bottom: 42px;
             border-bottom: solid;
             border-width: 0.03px;
-            border-color: #707070;
+            border-color: #e9e9e9;
 
         }
 
         .img1 {
             display: flex;
-            overflow: hidden;
-            height: auto;
             margin-bottom: 25px;
         }
 
@@ -93,7 +86,6 @@ const StyledRootDiv = styled.div`
             height: 149px;
             border: lightgray;
             clear: both;
-            overflow: hidden;
             margin-right: 17px;
             margin-bottom: 43px;
         }
@@ -131,7 +123,6 @@ const Pick = () => {
     return (
         <StyledRootDiv>
             <div className="innerDiv3">
-                <div></div>
                 <div className="pick-text">보험플래너 PICK! 👈</div>
                 <div className="left-wrapper">
                     <span className="pick-left">

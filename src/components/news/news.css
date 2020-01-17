@@ -4,9 +4,6 @@
     width: 100%;
 }
 
-.cate-wrapper {
-    width: 100%;
-}
 .categ-box {
     background-color: #3254E4;
   
@@ -21,12 +18,17 @@
     color: darkgray;
     margin-top: 10px;
     margin-bottom: 80px;
-    height: auto;
-    overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
 
 .news-text {
+    color:  #707070;
+    font-size: 19px;
     padding: 10px;
-} 
+    margin-bottom: 23px;
+}
+
+.news-deco {
+    text-decoration: none;
+}

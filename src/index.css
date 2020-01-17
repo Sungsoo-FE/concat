@@ -6,7 +6,6 @@
 body {
   margin: 0;
   font-family: 'NanumSquare';
-  src: url(./Font/NanumSquareOTFRegular.otf) format('otf');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
