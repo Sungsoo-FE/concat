@@ -17,7 +17,7 @@ const News = ()=> {
     return (        
         <NewsWrapper>
             <div className = "cate-wrapper">
-                <a className="categ-box">보험</a>
+                <div className="categ-box">보험</div>
                 <tr className="text-box">
                     <a className = "news-deco" href="#"><td href="#news1" className="news-text">메리츠금융그룹, 내년부터 새로운 CI 도입</td></a>
                     <tr>
@@ -35,7 +35,7 @@ const News = ()=> {
                 </tr>
             </div>
             <div className = "cate-wrapper">
-                <a className="categ-box">금융</a>
+                <div className="categ-box">금융</div>
                 <tr className="text-box">
                     <a className = "news-deco" href="#"><td href="#news1" className="news-text">메리츠금융그룹, 내년부터 새로운 CI 도입</td></a>
                     <tr>
@@ -53,7 +53,7 @@ const News = ()=> {
                 </tr>
             </div>
             <div className = "cate-wrapper">
-                <a className="categ-box">핀테크</a>
+                <div className="categ-box">핀테크</div>
                 <tr className="text-box">
                     <a className = "news-deco" href="#"><td href="#news1" className="news-text">메리츠금융그룹, 내년부터 새로운 CI 도입</td></a>
                     <tr>
