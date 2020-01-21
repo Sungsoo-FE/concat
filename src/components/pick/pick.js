@@ -76,6 +76,10 @@ const StyledRootDiv = styled.div`
 
         }
 
+        .pick-logo-img {
+            padding-right: 7px;
+        }
+
         .img1 {
             display: flex;
             margin-bottom: 25px;
@@ -109,6 +113,7 @@ const StyledRootDiv = styled.div`
             color: #707070;
             font-size: 18px;
             margin-top: 26px;
+            font-weight:100;
         }
         .i-t-wrapper2 {
             display: flex;
@@ -116,6 +121,7 @@ const StyledRootDiv = styled.div`
             color: #707070;
             font-size: 18px;
             margin-top: 24px;
+            font-weight: 100;
         }
     }
 `;
@@ -130,7 +136,7 @@ const Pick = () => {
                         <img src= { img1 } className="img1" alt="img1"></img>
                         <div className="img-text">제목은 여기에 써요</div>
                         <div className="img-text-content">투자자의 성향에 맞게 상품군 3가지를 추천해 드릴게요! 여기에도 미리 보기를 쓰시면 됩니다.</div>
-                        <div className = "i-t-wrapper"><img src = {pick_img} alt = "pickimg"/>  보험플래너 금융매거진</div>
+                        <div className = "i-t-wrapper"><img className = "pick-logo-img"src = {pick_img} alt = "pickimg"/>  보험플래너 금융매거진</div>
                     </span>
                 </div>
                 <div className="right-wrapper">
@@ -139,7 +145,7 @@ const Pick = () => {
                         <span className="img-sub-text">
                             <div className="img-text">케이뱅크 vs 카카오뱅크</div>
                             <div className="img-text-content">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</div>
-                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>에디터 이름</div>
+                        <div className = "i-t-wrapper2"><img className = "pick-logo-img" src = {pick_img} alt = "pickimg"/>에디터 이름</div>
                         </span>
                     </span>
                     <span className="pick">
@@ -147,7 +153,7 @@ const Pick = () => {
                         <span className="img-sub-text">
                             <div className="img-text">제목은 여기에 써요</div>
                             <div className="img-text-content">블로그 글 내용의 일부를 여기에 쓰면 됩니다. 미리보기</div> 
-                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>에디터 이름</div>
+                        <div className = "i-t-wrapper2"><img className = "pick-logo-img" src = {pick_img} alt = "pickimg"/>에디터 이름</div>
                         </span>
                     </span>
                     <span className="pick">
@@ -155,7 +161,7 @@ const Pick = () => {
                         <span className="img-sub-text">
                             <div className="img-text">케이뱅크 vs 카카오뱅크</div>
                             <div className="img-text-content">블로그 글 내용 일부를 여기에 쓰면 됩니다. 미리보기</div>
-                        <div className = "i-t-wrapper2"><img src = {pick_img} alt = "pickimg"/>에디터 이름</div>
+                        <div className = "i-t-wrapper2"><img className = "pick-logo-img" src = {pick_img} alt = "pickimg"/>에디터 이름</div>
                         </span>
                     </span>
                 </div> 
