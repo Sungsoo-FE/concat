@@ -10,7 +10,9 @@
     height: 34px;
     color: white;
     font-weight: 900;
+    display: table-cell;
     text-align: center;
+    vertical-align: middle;
     font-size: 20px;   
 }
 

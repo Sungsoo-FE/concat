@@ -17,7 +17,7 @@ const News = ()=> {
     return (        
         <NewsWrapper>
             <div className = "cate-wrapper">
-                <div className="categ-box" id="font-family1">보험</div>
+                <div className="categ-box">보험</div>
                 <tr className="text-box">
                     <a className = "news-deco" href="#"><td href="#news1" className="news-text">메리츠금융그룹, 내년부터 새로운 CI 도입</td></a>
                     <tr>
