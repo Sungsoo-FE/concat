@@ -17,7 +17,7 @@ const Content = () => {
                 </div>
                 <div className = "box-wrapper">
                     <a className = "con-box"># 포함</a>
-                    <a className = "con-box"># 미국 FA</a>
+                    <a className = "con-box2"># 미국 FA</a>
                 </div>
             </div>
             <div className = "news-wrapper">
